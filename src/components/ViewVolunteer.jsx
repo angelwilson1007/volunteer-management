@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Navigation from './Navigation'
 
 
 const ViewVolunteer = () => {
@@ -29,7 +30,7 @@ const ViewVolunteer = () => {
     return (
         <div>
 
-            
+            <Navigation/>
 
             <div className="container mt-4">
 
